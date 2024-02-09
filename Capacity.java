@@ -1,0 +1,11 @@
+import java.util.*;
+public class Sol{
+    public static void main(String[] args){
+        Scanner sc =new Scanner(System.in);
+        int T=sc.nextInt();
+        int S=sc.nextInt();
+        int B=sc.nextInt();
+        int Ca=(2*T*S*B*512)/1024;
+        System.out.println(Ca +" KB");
+    }
+}
