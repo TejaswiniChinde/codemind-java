@@ -1,15 +1,14 @@
 import java.util.*;
-public class Reach
-{
-    public static void main(String args[])
-    {
+public class Sol{
+    public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        int x=sc.nextInt();
-        int y=sc.nextInt();
-        int maxdistance=x*5;
-        if(maxdistance>=y)
-        System.out.println("YES");
-        else
-        System.out.println("NO");
+        int X=sc.nextInt();
+        int Y=sc.nextInt();
+        if((X*5)>=Y){
+            System.out.println("YES");
+        }
+        else{
+            System.out.println("NO");
+        }
     }
 }
